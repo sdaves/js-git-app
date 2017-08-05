@@ -2,6 +2,9 @@
   "name": "js-git-app",
   "private": true,
   "version": "0.0.0",
+  "scripts": {
+    "build": "npm install --dedupe"
+  },
   "dependencies": {
     "base64-js": "0.0.2",
     "bops": "0.0.6",

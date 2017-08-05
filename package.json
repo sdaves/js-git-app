@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "npm install --dedupe && mkdir dist && cp -r * dist"
+    "build": "npm install --dedupe && mkdir ../dist && cp -r * ../dist && mv ../dist ."
   },
   "dependencies": {
     "base64-js": "0.0.2",
